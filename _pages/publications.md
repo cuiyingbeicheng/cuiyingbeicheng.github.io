@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <p class="page-intro">My work spans statistical methodology and collaborative biomedical research. Topics include survival analysis, precision medicine, clinical trials, medical devices, biomedical AI, and reproducible health-data science.</p>
