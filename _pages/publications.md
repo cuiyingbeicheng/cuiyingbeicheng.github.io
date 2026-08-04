@@ -18,4 +18,9 @@ nav_order: 3
   <h2 class="publication-group-title">Biomedical and Public Health Collaboration&ndash;Oriented Publications</h2>
   {% bibliography --group_by none --query @*[category=collaborative] %}
 </section>
+
+<section class="publication-group">
+  <h2 class="publication-group-title">Conference Abstracts</h2>
+  {% bibliography --group_by none --query @*[category=abstracts] %}
+</section>
 </div>
