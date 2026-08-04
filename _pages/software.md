@@ -24,7 +24,6 @@ I develop reproducible statistical software that translates methodological resea
       <span class="software-badge">R</span>
     </div>
     <p>Tools for assessing the reproducibility of microbiome measurements using concordance correlation coefficients.</p>
-    <a href="https://web1.sph.emory.edu/users/lpeng/Rpackage.html">Project page <span aria-hidden="true">→</span></a>
   </article>
 
   <article class="software-card">

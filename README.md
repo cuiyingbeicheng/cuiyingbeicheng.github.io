@@ -34,6 +34,6 @@ settings:
 
 1. Give GitHub Actions read and write permissions.
 2. Configure GitHub Pages to deploy from the `gh-pages` branch.
-3. Keep the custom-domain setting aligned with `CNAME`.
+3. Leave `baseurl` empty for the username-level Pages repository.
 
-The canonical site URL is configured as `https://www.cuiyingbeicheng.org`.
+The canonical site URL is configured as `https://cuiyingbeicheng.github.io`.

@@ -89,15 +89,21 @@
         {% endif %}
         {%- if author_is_self -%}
           <em>
-            {{- author_last_html }} {{ author_initials -}}.
+            {{- author_last_html }}
+            {{ author_initials -}}
+            .
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
-              {{- author_last_html }} {{ author_initials -}}.
+              {{- author_last_html }}
+              {{ author_initials -}}
+              .
             </a>
           {%- else -%}
-            {{- author_last_html }} {{ author_initials -}}.
+            {{- author_last_html }}
+            {{ author_initials -}}
+            .
           {% endif %}
         {%- endif -%}
       {% endfor %}
