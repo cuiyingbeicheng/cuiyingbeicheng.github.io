@@ -73,14 +73,6 @@
   }
 }
 
-.software-card {
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.65rem;
-  box-shadow: 0 0.35rem 1.2rem rgba(0, 0, 0, 0.04);
-  padding: 1.25rem;
-}
-
 .page-intro {
   color: var(--global-text-color-light);
   display: block;
@@ -294,9 +286,14 @@
 }
 
 .software-card {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.65rem;
+  box-shadow: 0 0.35rem 1.2rem rgba(0, 0, 0, 0.04);
   display: flex;
   flex-direction: column;
   min-height: 13rem;
+  padding: 1.25rem;
 
   p {
     color: var(--global-text-color-light);
