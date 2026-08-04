@@ -86,8 +86,9 @@
   font-size: 1.06rem;
   line-height: 1.7;
   margin: 0.5rem 0 2.75rem;
-  max-width: 66ch;
+  max-width: none;
   text-wrap: pretty;
+  width: 100%;
 }
 
 .research-program {
