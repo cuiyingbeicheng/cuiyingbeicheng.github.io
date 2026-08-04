@@ -42,11 +42,32 @@ jobs:
   link-checker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Link Checker 🔗
-        uses: lycheeverse/lychee-action@v1.9.0
+        uses: lycheeverse/lychee-action@v2
         with:
           fail: true
+          token: ${{ secrets.GITHUB_TOKEN }}
           # Exclude template documentation and Liquid-generated internal URLs.
-          args: --user-agent 'curl/7.54' --exclude '%7B%7B' --exclude-path README.md --exclude-path CONTRIBUTING.md --exclude-path CUSTOMIZE.md --exclude-path FAQ.md --exclude-path INSTALL.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --verbose --no-progress './**/*.md' './**/*.html'
+          # Retry external requests and accept connection timeouts, while still
+          # failing on confirmed HTTP errors such as 404 responses.
+          args: >-
+            --user-agent 'curl/7.54'
+            --exclude '%7B%7B'
+            --exclude-path README.md
+            --exclude-path CONTRIBUTING.md
+            --exclude-path CUSTOMIZE.md
+            --exclude-path FAQ.md
+            --exclude-path INSTALL.md
+            --exclude-path _pages/404.md
+            --exclude-path _pages/blog.md
+            --exclude-path _posts/2018-12-22-distill.md
+            --max-retries 5
+            --retry-wait-time 2
+            --timeout 30
+            --accept-timeouts
+            --verbose
+            --no-progress
+            './**/*.md'
+            './**/*.html'
