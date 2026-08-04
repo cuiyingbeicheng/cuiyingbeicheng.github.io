@@ -51,14 +51,14 @@ nav_order: 5
         <div class="teaching-date">Fall 2018&ndash;2021</div>
         <div>
           <h4>BIOS 710</h4>
-          <p>Teaching Assistant for Probability Theory II.</p>
+          <p>Teaching Assistant for <em>Probability Theory II</em>.</p>
         </div>
       </div>
       <div class="teaching-item">
         <div class="teaching-date">Spring 2019&ndash;2021</div>
         <div>
           <h4>BIOS 711</h4>
-          <p>Teaching Assistant for Statistical Inference II.</p>
+          <p>Teaching Assistant for <em>Statistical Inference II</em>.</p>
         </div>
       </div>
       <div class="teaching-item">
