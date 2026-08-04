@@ -81,17 +81,13 @@
   padding: 1.25rem;
 }
 
-.research-page-intro {
-  border-left: 4px solid var(--global-theme-color);
-  font-size: 1.08rem;
+.page-intro {
+  color: var(--global-text-color-light);
+  font-size: 1.06rem;
   line-height: 1.7;
   margin: 0.5rem 0 2.75rem;
-  max-width: 50rem;
-  padding: 0.25rem 0 0.25rem 1.25rem;
-
-  p {
-    margin: 0;
-  }
+  max-width: 66ch;
+  text-wrap: pretty;
 }
 
 .research-program {
@@ -228,15 +224,6 @@
   li + li {
     margin-top: 0.35rem;
   }
-}
-
-.teaching-intro {
-  color: var(--global-text-color-light);
-  font-size: 1.06rem;
-  line-height: 1.7;
-  margin-bottom: 2.5rem;
-  max-width: 66ch;
-  text-wrap: pretty;
 }
 
 .teaching-institution {

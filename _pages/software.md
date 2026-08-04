@@ -6,7 +6,7 @@ nav: true
 nav_order: 4
 ---
 
-I develop reproducible statistical software that translates methodological research into tools for biomedical investigators.
+<p class="page-intro">I develop reproducible statistical software that translates methodological research into tools for biomedical investigators.</p>
 
 <div class="software-grid">
   <article class="software-card">

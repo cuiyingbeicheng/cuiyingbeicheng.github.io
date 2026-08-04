@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-<p class="teaching-intro">Teaching the next generation of scientists is both a responsibility and a source of continual learning. I aim to create an inclusive and supportive environment, organize material around clear learning objectives, and use hands-on examples and collaboration to make abstract statistical ideas accessible to learners from diverse backgrounds.</p>
+<p class="page-intro">Teaching the next generation of scientists is both a responsibility and a source of continual learning. I aim to create an inclusive and supportive environment, organize material around clear learning objectives, and use hands-on examples and collaboration to make abstract statistical ideas accessible to learners from diverse backgrounds.</p>
 
 <section class="teaching-institution">
   <div class="teaching-institution-header">
