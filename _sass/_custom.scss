@@ -58,6 +58,21 @@
   }
 }
 
+@media (min-width: 768px) {
+  .home-profile-grid .profile {
+    figure {
+      margin: 0;
+    }
+
+    img {
+      aspect-ratio: 6 / 7;
+      object-fit: cover;
+      object-position: center 36%;
+      width: 100%;
+    }
+  }
+}
+
 .software-card {
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
