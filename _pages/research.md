@@ -21,10 +21,6 @@ nav_order: 2
       <span>Personalized comorbidity</span>
       <span>Causal machine learning</span>
     </div>
-    <div class="research-current-work">
-      <strong>Current work</strong>
-      <p>Dynamic decision-making with individualized variable selection; direct optimization of point-based clinical risk scores; and data-driven comorbidity scoring that integrates large-scale EHR information.</p>
-    </div>
   </div>
 </section>
 
@@ -41,10 +37,6 @@ nav_order: 2
       <span>Dynamic effects</span>
       <span>Medical-device evaluation</span>
     </div>
-    <div class="research-current-work">
-      <strong>Representative work</strong>
-      <p>Non-parametric testing with time-dependent covariates; global group testing and screening with dynamic effects; IPCW-adjusted win statistics with equivalence margins; and model-free evaluation of devices using imperfect reference standards.</p>
-    </div>
   </div>
 </section>
 
@@ -60,10 +52,6 @@ nav_order: 2
       <span>Clinical LLM evaluation</span>
       <span>Reproducible machine learning</span>
       <span>Multimodal data</span>
-    </div>
-    <div class="research-current-work">
-      <strong>Research aim</strong>
-      <p>To pair flexible prediction with transparent validation, so that improved computational performance is accompanied by interpretable evidence about reliability, generalizability, and potential failure modes.</p>
     </div>
   </div>
 </section>
