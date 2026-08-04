@@ -88,8 +88,10 @@
   line-height: 1.7;
   margin: 0.5rem 0 2.75rem;
   max-width: 100%;
-  text-wrap: wrap;
+  overflow-wrap: break-word;
+  white-space: normal;
   width: 100%;
+  word-break: normal;
 }
 
 .research-program {
