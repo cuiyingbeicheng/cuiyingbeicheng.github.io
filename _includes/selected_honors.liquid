@@ -1,0 +1,15 @@
+{% assign honors_section = site.data.cv | where: 'title', 'Selected Honors & Awards' | first %}
+{% if honors_section %}
+  <div class="home-honors">
+    {% for honor_group in honors_section.contents %}
+      <div class="home-honor-row">
+        <div class="home-honor-year">{{ honor_group.year }}</div>
+        <ul class="home-honor-list">
+          {% for honor in honor_group.items %}
+            <li>{{ honor }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

@@ -16,7 +16,8 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% capture profile_block %}
+      <div class="profile{% unless page.profile_text %} float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}{% endunless %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -36,6 +37,16 @@ layout: default
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
+      {% endcapture %}
+
+      {% if page.profile_text %}
+        <div class="home-profile-grid">
+          <div class="home-profile-copy">{{ page.profile_text | markdownify }}</div>
+          {{ profile_block }}
+        </div>
+      {% else %}
+        {{ profile_block }}
+      {% endif %}
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
@@ -46,6 +57,14 @@ layout: default
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Selected honors and awards -->
+    {% if page.selected_honors %}
+      <h2>
+        <a href="{{ '/cv/' | relative_url }}" style="color: inherit">selected honors &amp; awards</a>
+      </h2>
+      {% include selected_honors.liquid %}
     {% endif %}
 
     <!-- Selected papers -->

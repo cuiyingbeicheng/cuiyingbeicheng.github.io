@@ -2,24 +2,30 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle: Postdoctoral Fellow · Department of Biomedical Data Science · Stanford University
 
 profile:
   align: right
   image: photo_website.JPG
-  image_circular: false # crops the image to make it circular
-  
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+  image_circular: false
+  more_info: >
+    <p>Stanford, California</p>
+    <p><a href="mailto:yingcui@stanford.edu">yingcui@stanford.edu</a></p>
+
+profile_text: |
+  I am a postdoctoral fellow in [Biomedical Data Science](https://dbds.stanford.edu/) at Stanford University, advised by [Lu Tian](https://web.stanford.edu/~lutian/home.HTML). My research advances the statistical foundations of biomedical data science. I develop interpretable and reproducible methods that combine nonparametric and semiparametric modeling, machine learning, and causal inference to address practical questions in precision health and trustworthy AI.
+
+  My collaborations span clinical trials, medical devices, electronic health records, drug discovery, and responsible clinical AI. Current projects include direct optimization of interpretable point-based clinical risk scores, personalized comorbidity scoring using large-scale EHR data, and predictive-distribution assessment for censored outcomes.
+
+  I received my Ph.D. in Biostatistics from Emory University, where my dissertation was supervised by [Limin Peng](https://sph.emory.edu/faculty/profile/index.php?FID=limin-peng-338). I previously earned a B.S. in Statistics from Nankai University and completed a statistics internship at Pfizer.
+
+news: false
+selected_honors: true
+selected_papers: true
+social: true
 ---
 
-<b>Postdoctoral Scholar</b> at <a href='#'>Stanford DBDS</a>
-
-
-
-
-I'm currently a postdoctoral scholar at Stanford Universiry, where I'm very fortunate to be advised by Professor [Lu Tian](https://web.stanford.edu/~lutian/home.HTML), and work with Professor [Lexin Li](https://lexinli.biostat.berkeley.edu/). I completed my Ph.D. in Biostatistics at Emory University, where I was very fortunate to be supervised by Professor [Limin Peng](https://sph.emory.edu/faculty/profile/index.php?FID=limin-peng-338) for my dissertation. I was also very lucky to be advised by Professors [Amita K. Manatunga](https://sph.emory.edu/faculty/profile/index.php?FID=amita-manatunga-36), [Jeong Hoon Jang](https://sites.google.com/view/jangbiostat) and [Zhaohui (Steve) Qin](https://sph.emory.edu/faculty/profile/index.php?FID=zhaohui%20%20steve%20-qin-8697) on particular projects. I have also gained industry experience in biopharmaceutical research at Pfizer Inc. Prior to Emory, I received my B.S. in Statistics from Nankai University, where I was pleased to be supervised by Professor [Ximing Xu](https://pediatrixlab.com/) on my undergraduate thesis. 
-
-
-My research focuses on statistical innovation and its application in biomedical studies, with areas of interest including personalized medicine, survival analysis and quantile regression.
+<div class="home-actions">
+  <a class="btn btn-primary" href="{{ '/publications/' | relative_url }}">View publications</a>
+  <a class="btn btn-outline-primary" href="{{ '/software/' | relative_url }}">Explore software</a>
+</div>

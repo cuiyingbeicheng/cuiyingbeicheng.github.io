@@ -11,7 +11,11 @@
   <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
 {% endif %}
 {% if site.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  {% if site.scholar_url %}
+    <a href="{{ site.scholar_url }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  {% else %}
+    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  {% endif %}
 {% endif %}
 {% if site.semanticscholar_id %}
   <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>

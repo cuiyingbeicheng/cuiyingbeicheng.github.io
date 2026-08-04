@@ -1,97 +1,57 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Biostatistics
+      institution: Emory University, Atlanta, Georgia
+      department: Department of Biostatistics and Bioinformatics
+      year: 2017-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisor: Limin Peng"
+        - "Dissertation: Flexible and Robust Methods for Evaluating Covariate Effects on Biomedical Outcomes"
+    - title: B.S. in Statistics
+      institution: Nankai University, Tianjin, China
+      department: Department of Mathematics
+      year: 2013-2017
       description:
-        - Description 1.
-        - Description 2.
+        - "Advisor: Ximing Xu"
+        - "Thesis: Composite Likelihood in Latent Class Modeling"
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Fellow
+      institution: Stanford University, Stanford, California
+      department: Department of Biomedical Data Science
+      year: 2023-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Supervisor: Lu Tian"
+    - title: Statistics Summer Intern
+      institution: Pfizer Inc.
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - "Manager: Bo Huang"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Honors & Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: "2017-"
+      items:
+        - "2023 — Scholarship Award, Biopharmaceutical Section, American Statistical Association"
+        - "2021 — Student Paper Award, 1st Place, Medical Device and Diagnostic Section, American Statistical Association"
+        - "2021 — Distinguished Student Paper Award, Eastern North American Region, International Biometric Society"
+        - "2021 — Livingston Fellowship Award, Emory University"
+    - year: 2013-2017
+      items:
+        - Outstanding Thesis Award and Outstanding Graduate, Nankai University
 
-- title: Honors and Awards
+- title: Certifications
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Cosmos Data Model for Data Architects Certification
+      institution: Cosmos Academy
+      year: "2025"
+      description:
+        - EHR data modeling and line-level SQL access within Epic Cosmos
+    - title: SAS Certified Base Programmer for SAS 9
+      institution: SAS
+      year: "2017"

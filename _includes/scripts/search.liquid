@@ -185,7 +185,7 @@
             title: 'Google Scholar',
             section: 'Socials',
             handler: () => {
-              window.open("https://scholar.google.com/citations?user={{ site.scholar_userid }}", "_blank");
+              window.open("{% if site.scholar_url %}{{ site.scholar_url }}{% else %}https://scholar.google.com/citations?user={{ site.scholar_userid }}{% endif %}", "_blank");
             },
           },
         {%- endif -%}
