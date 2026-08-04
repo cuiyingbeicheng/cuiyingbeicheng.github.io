@@ -338,6 +338,18 @@
   }
 }
 
+.publication-group + .publication-group {
+  margin-top: 3rem;
+}
+
+.publication-group-title {
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.4rem;
+  padding-bottom: 0.8rem;
+}
+
 html[data-theme="dark"] {
   .software-card {
     box-shadow: none;
