@@ -265,6 +265,58 @@
   line-height: 1.4;
 }
 
+.talks-year {
+  margin: 0 0 2.5rem;
+}
+
+.talks-year-title {
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+  padding-bottom: 0.8rem;
+}
+
+.talks-list {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.6rem;
+  border-top: 3px solid var(--global-theme-color);
+  padding: 0.2rem 1.2rem;
+}
+
+.talks-item {
+  border-top: 1px solid var(--global-divider-color);
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  padding: 1rem 0;
+
+  &:first-child {
+    border-top: 0;
+  }
+
+  h3 {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0 0 0.3rem;
+  }
+
+  p {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+}
+
+.talks-type {
+  color: var(--global-theme-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
 .home-actions {
   clear: both;
   display: flex;
@@ -342,6 +394,12 @@
   margin-top: 3rem;
 }
 
+.publication-notation {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  margin: -1.9rem 0 2.5rem;
+}
+
 .publication-group-title {
   border-bottom: 1px solid var(--global-divider-color);
   font-size: 1.45rem;
@@ -393,6 +451,11 @@ html[data-theme="dark"] {
   }
 
   .teaching-item {
+    gap: 0.3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .talks-item {
     gap: 0.3rem;
     grid-template-columns: 1fr;
   }
