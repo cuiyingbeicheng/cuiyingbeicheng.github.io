@@ -6,8 +6,6 @@ nav: true
 nav_order: 7
 ---
 
-<p class="page-intro">Invited, contributed, and award presentations at conferences, symposia, webinars, and academic seminars.</p>
-
 <section class="talks-year">
   <h2 class="talks-year-title">2026</h2>
   <div class="talks-list">
