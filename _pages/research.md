@@ -32,10 +32,10 @@ nav_order: 2
     <p class="research-program-lead">I build nonparametric and semiparametric methods for clinical studies in which effects vary over time, outcomes are censored, endpoints have different priorities, or no perfect reference standard exists.</p>
     <p>The work ranges from global testing and screening for dynamic covariate effects to win statistics for prioritized outcomes. It also develops estimands and inference for duration of response, clinically meaningful ties, and medical-device evaluation with multiple imperfect references.</p>
     <div class="research-topic-list" aria-label="Modern clinical studies topics">
-      <span>Survival analysis</span>
+      <span>Quantile regression</span>
       <span>Win statistics</span>
-      <span>Dynamic effects</span>
-      <span>Medical-device evaluation</span>
+      <span>Clinical trials</span>
+      <span>Medical devices</span>
     </div>
   </div>
 </section>
