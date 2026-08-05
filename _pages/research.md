@@ -48,10 +48,10 @@ nav_order: 2
     <p class="research-program-lead">I develop statistical and machine-learning methods for trustworthy biomedical AI that quantify uncertainty, withstand rigorous evaluation, and support reliable decisions across clinical and scientific settings.</p>
     <p>Current directions include conformal and predictive-distribution inference for censored outcomes; evidence-based evaluation of clinical large language models; generative modeling for synthetic data to support reproducible validation and benchmarking; and reproducible AI methods for drug discovery.</p>
     <div class="research-topic-list" aria-label="Trustworthy biomedical AI topics">
-      <span>Clinical LLM evaluation</span>
       <span>Conformal inference</span>
       <span>Generative modeling</span>
       <span>AI for drug discovery</span>
+      <span>Clinical LLM evaluation</span>
     </div>
   </div>
 </section>
