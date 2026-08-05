@@ -78,7 +78,9 @@
               {%- assign author_is_cofirst = true -%}
             {%- endif -%}
           {%- elsif entry.key == 'wei2024meta' -%}
-            {%- if author_last_name == 'Wei' or author_last_name == 'Yao' or author_last_name == 'Cui' -%}
+            {%- if author_last_name == 'Wei' and author.first == 'Qiuhong' -%}
+              {%- assign author_is_cofirst = true -%}
+            {%- elsif author_last_name == 'Yao' or author_last_name == 'Cui' -%}
               {%- assign author_is_cofirst = true -%}
             {%- endif -%}
           {%- elsif entry.key == 'hwang2026academyhealth' -%}
