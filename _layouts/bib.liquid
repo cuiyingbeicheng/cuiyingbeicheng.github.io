@@ -51,7 +51,7 @@
     <!-- Author -->
     <div class="author">
       {% if entry.key == 'chang2025redteaming' %}
-        Chang<sup>&dagger;</sup> C., Farah<sup>&dagger;</sup> H., Gui<sup>&dagger;</sup> H., &hellip;, <strong class="author-self">Cui Y.</strong>,
+        Chang C.<sup>&dagger;</sup>, Farah H.<sup>&dagger;</sup>, Gui H.<sup>&dagger;</sup>, &hellip;, <strong class="author-self">Cui Y.</strong>,
         &hellip;, Shah N., and Daneshjou R.
       {% else %}
         {% assign author_array_size = entry.author_array | size %}
@@ -95,8 +95,9 @@
             {%- endif -%}
           {%- endif -%}
           {%- assign author_last_html = author_last_name -%}
+          {%- assign author_dagger_html = '' -%}
           {%- if author_is_cofirst -%}
-            {%- capture author_last_html -%}{{ author_last_name }}<sup>&dagger;</sup>{%- endcapture -%}
+            {%- capture author_dagger_html -%}<sup>&dagger;</sup>{%- endcapture -%}
           {%- endif -%}
           {%- assign author_given_names = author.first | strip | split: ' ' -%}
           {%- capture author_initials -%}
@@ -128,19 +129,19 @@
             <strong class="author-self">
               {{- author_last_html }}
               {{ author_initials -}}
-              .
+              .{{ author_dagger_html }}
             </strong>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">
                 {{- author_last_html }}
                 {{ author_initials -}}
-                .
+                .{{ author_dagger_html }}
               </a>
             {%- else -%}
               {{- author_last_html }}
               {{ author_initials -}}
-              .
+              .{{ author_dagger_html }}
             {% endif %}
           {%- endif -%}
         {% endfor %}
