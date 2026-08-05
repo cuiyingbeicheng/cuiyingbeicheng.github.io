@@ -18,7 +18,7 @@ nav_order: 2
     <div class="research-topic-list" aria-label="Precision health topics">
       <span>Individualized variable selection</span>
       <span>Interpretable risk scores</span>
-      <span>Personalized comorbidity</span>
+      <span>Personalized indices</span>
       <span>Causal machine learning</span>
     </div>
   </div>
