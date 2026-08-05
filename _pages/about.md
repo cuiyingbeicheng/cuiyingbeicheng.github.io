@@ -21,7 +21,7 @@ profile_text: |
 
 news: false
 selected_honors: true
-selected_papers: true
+selected_papers: false
 social: true
 ---
 
