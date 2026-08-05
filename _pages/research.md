@@ -45,8 +45,8 @@ nav_order: 2
   <div class="research-program-content">
     <p class="research-program-kicker">Trustworthy biomedical AI</p>
     <h2>Reliable uncertainty and reproducible evaluation</h2>
-    <p class="research-program-lead">I study how biomedical AI systems can communicate uncertainty, withstand rigorous evaluation, and support responsible decisions across clinical and scientific settings.</p>
-    <p>Current directions include predictive-distribution assessment for censored outcomes; evidence-based evaluation and red teaming of medical large language models; reproducible machine-learning strategies for drug discovery and multimodal biomedical data; and generative modeling to create synthetic data for validation and benchmarking.</p>
+    <p class="research-program-lead">I develop statistical and machine-learning methods for trustworthy biomedical AI that quantify uncertainty, withstand rigorous evaluation, and support reliable decisions across clinical and scientific settings.</p>
+    <p>Current directions include conformal and predictive-distribution inference for censored outcomes; evidence-based evaluation of clinical large language models; generative modeling for synthetic data to support reproducible validation and benchmarking; and reproducible AI methods for drug discovery.</p>
     <div class="research-topic-list" aria-label="Trustworthy biomedical AI topics">
       <span>Clinical LLM evaluation</span>
       <span>Conformal inference</span>
