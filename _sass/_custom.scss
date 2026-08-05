@@ -4,10 +4,13 @@
 // preserving natural alignment for headings, metadata, labels, and controls.
 .post-header .desc,
 .post-header .post-description,
-.post article {
+.post article,
+.post article blockquote,
+.post article dd,
+.post article li,
+.post article p {
   hyphens: auto;
-  text-align: justify;
-  text-align-last: left;
+  text-align: justify !important;
   text-justify: inter-word;
 }
 
@@ -34,8 +37,7 @@
   .talks-type,
   .teaching-date {
     hyphens: none;
-    text-align: left;
-    text-align-last: auto;
+    text-align: left !important;
   }
 }
 
