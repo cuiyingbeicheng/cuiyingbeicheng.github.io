@@ -13,8 +13,8 @@ nav_order: 2
   <div class="research-program-content">
     <p class="research-program-kicker">Precision health</p>
     <h2>Individualized decisions that remain interpretable</h2>
-    <p class="research-program-lead">I develop interpretable and reproducible methods for precision intervention development and personalized clinical evaluation, with an emphasis on dynamic, data-driven decisions for heterogeneous patient populations.</p>
-    <p>This program combines reinforcement learning with robust causal inference to learn adaptive strategies while accounting for measurement cost, clinical utility, and health equity. It also develops transparent tools for individualized variable selection and personalized clinical indices from large-scale EHR data, enabling interventions to be tailored and evaluated across patient subgroups.</p>
+    <p class="research-program-lead">I develop interpretable and reproducible methods for precision intervention development and personalized clinical evaluation, with an emphasis on dynamic, data-driven decisions for heterogeneous populations.</p>
+    <p>This program combines reinforcement learning with robust causal inference to learn adaptive strategies while accounting for measurement cost, clinical utility, and health equity. It also develops transparent tools for individualized variable selection and personalized clinical indices from large-scale EHR data.</p>
     <div class="research-topic-list" aria-label="Precision health topics">
       <span>Reinforcement learning</span>
       <span>Robust causal inference</span>
