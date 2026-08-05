@@ -16,10 +16,10 @@ nav_order: 2
     <p class="research-program-lead">I develop methods that adapt prediction and decision-making to each person while accounting for measurement cost, clinical utility, and health equity.</p>
     <p>This program combines reinforcement learning, causal inference, direct optimization, and fairness-aware machine learning. A central question is how to decide what information to collect, when enough evidence has been gathered, and how to translate complex electronic health record data into transparent tools that clinicians and patients can use.</p>
     <div class="research-topic-list" aria-label="Precision health topics">
-      <span>Individualized variable selection</span>
-      <span>Interpretable risk scores</span>
-      <span>Personalized indices</span>
-      <span>Causal machine learning</span>
+      <span>Reinforcement learning</span>
+      <span>Robust causal inference</span>
+      <span>Precision intervention development</span>
+      <span>Personalized clinical evaluation</span>
     </div>
   </div>
 </section>
