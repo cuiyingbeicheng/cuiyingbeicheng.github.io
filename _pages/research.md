@@ -48,10 +48,10 @@ nav_order: 2
     <p class="research-program-lead">I study how biomedical AI systems can communicate uncertainty, withstand rigorous evaluation, and support responsible decisions across clinical and scientific settings.</p>
     <p>Current directions include predictive-distribution assessment for censored outcomes; evidence-based evaluation and red teaming of medical large language models; reproducible machine-learning strategies for drug discovery and multimodal biomedical data; and generative modeling to create synthetic data for validation and benchmarking.</p>
     <div class="research-topic-list" aria-label="Trustworthy biomedical AI topics">
-      <span>Uncertainty quantification</span>
       <span>Clinical LLM evaluation</span>
-      <span>Reproducible machine learning</span>
-      <span>Drug discovery</span>
+      <span>Conformal inference</span>
+      <span>Generative modeling</span>
+      <span>AI for drug discovery</span>
     </div>
   </div>
 </section>
