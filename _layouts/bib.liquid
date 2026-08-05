@@ -209,10 +209,15 @@
     {% endif %}
     {% assign entrymonth = '' %}
     {% assign entryyear = '' %}
+    {% assign entry_note_normalized = entry.note | default: '' | strip | downcase %}
+    {% assign entry_is_forthcoming = false %}
+    {% if entry_note_normalized contains 'forthcoming' %}
+      {% assign entry_is_forthcoming = true %}
+    {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
-    {% if entry.year %}
+    {% if entry.year and entry_is_forthcoming == false %}
       {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
     {% if entry.location %}
