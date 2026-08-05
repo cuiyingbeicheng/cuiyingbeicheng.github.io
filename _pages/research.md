@@ -51,7 +51,7 @@ nav_order: 2
       <span>Uncertainty quantification</span>
       <span>Clinical LLM evaluation</span>
       <span>Reproducible machine learning</span>
-      <span>Multimodal data</span>
+      <span>Drug discovery</span>
     </div>
   </div>
 </section>
