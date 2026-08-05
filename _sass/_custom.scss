@@ -1,5 +1,44 @@
 // Site-specific presentation for Ying Cui's academic profile.
 
+// Apply justified alignment to narrative text throughout the site while
+// preserving natural alignment for headings, metadata, labels, and controls.
+.post-header .desc,
+.post-header .post-description,
+.post article {
+  hyphens: auto;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+}
+
+.post article {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .bibliography .author,
+  .bibliography .links,
+  .bibliography .periodical,
+  .bibliography .title,
+  .home-actions,
+  .home-honor-year,
+  .publication-group-title,
+  .research-page-actions,
+  .research-program-kicker,
+  .research-topic-list,
+  .social,
+  .software-badge,
+  .software-card-header,
+  .talks-type,
+  .teaching-date {
+    hyphens: none;
+    text-align: left;
+    text-align-last: auto;
+  }
+}
+
 .post-header {
   margin-bottom: 2rem;
 
